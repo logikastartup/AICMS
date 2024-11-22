@@ -1,0 +1,64 @@
+{
+    "root": {
+        "data": {
+            "id": "d5ozlhlabvk0",
+            "created": 1731900803896,
+            "text": "AICMS"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5ozpueu5o80",
+                    "created": 1731901145261,
+                    "text": "Development"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d5ozq1ybg7s0",
+                    "created": 1731901161676,
+                    "text": "Sumber dan Link"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ozq5rwkps0",
+                            "created": 1731901169996,
+                            "text": "https://sortablejs.github.io/Sortable/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5ozqitcpvk0",
+                            "created": 1731901198381,
+                            "text": "Prompt untuk membuat artikel"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ozqofx15k0",
+                                    "created": 1731901210630,
+                                    "text": "https://medium.com/@gfo95/reads-like-magic-and-ranks-like-rocket-the-power-of-nlp-617ba098b8bd"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ozq78b5hc0",
+                                    "created": 1731901173164,
+                                    "text": "https://docs.google.com/document/d/1K74tDJiaxnJrJ6rIvcG4getnrkRKcERk2OrDVRxdH8U/edit?tab=t.0"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}
