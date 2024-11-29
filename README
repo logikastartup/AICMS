@@ -1,0 +1,44 @@
+Work in Progress
+
+AICMS
+Aplikasi CMS yang terintergasi secara langsung dengan AI untuk memproduksi konten Bahasa Indonesia.
+
+Target Fitur:
+- Membuat Topic Cluster
+- Membuat Outline Artikel
+- Membuat Artikel (Blog/News) -> dapat menggunakan sumber agar hasil relevan
+- Membuat Gambar (Thumbnail artikel)
+- Static Website Generation (Cloudflare Pages) -> Core Web Vitals rata-rata 98 (Hijau Semua)
+
+Tujuan:
+- Merubah peran penulis menjadi Editor
+- Mempermudah Riset Keyword dengan Topic Clustering (5 menit/topik)
+- Mempercepat pembuatan artikel berkualitas (10 menit/artikel)
+
+Stack:
+- Directus (Backoffice/PostgreSQL)
+- FastAPI
+- Bootstrap (Admin)
+- HTML & CSS (vanilla) -> Cloudflare Pages
+
+Teknologi
+- Google Gemini API
+- AnthropiC API
+- OpenAI API
+
+Langkah-Langkah Instalasi:
+
+Install Python versi 3.12
+install python environtment (versi 3.12.6)
+VSCode Extension -> Python Environment Manager -> +, lalu pilih 3.12.x
+Untuk menjalankan Python Env -> .venv -> open in terminal
+
+Install Directus
+npm i directus
+
+Buat directus project
+npx directus init backoffice
+
+Mengaktifkan Directus
+cd .\backoffice\
+npx directus start
